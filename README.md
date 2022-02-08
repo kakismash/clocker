@@ -13,7 +13,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/kakismash/clocker?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/kakismash/clocker?color=56BEB8">
+  <!-- <img alt="License" src="https://img.shields.io/github/license/kakismash/clocker?color=56BEB8"> -->
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/clocker?color=56BEB8" /> -->
 
