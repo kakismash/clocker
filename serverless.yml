@@ -1,0 +1,31 @@
+service: serveless-clocker
+
+provider: 
+  name: aws
+  runtime: nodejs14.x
+  role: arn:aws:iam::705379695127:role/CRUD
+
+functions:
+  clocker:
+    handler: dist/index.handler
+    name: serverless-clocker
+    events:
+      - httpApi:
+          method: post
+          path: /clocker
+
+      - httpApi: 
+          method: get
+          path: /clocker
+
+      - httpApi: 
+          method: delete
+          path: /clocker/{id}
+
+      - httpApi: 
+          method: put
+          path: /clocker/{id}
+
+      - httpApi: 
+          method: get
+          path: /clocker/{id}
