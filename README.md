@@ -1,6 +1,4 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Clocker" />
-
   &#xa0;
 
   <!-- <a href="https://clocker.netlify.app">Demo</a> -->
