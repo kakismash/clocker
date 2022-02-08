@@ -71,26 +71,25 @@ Before starting :checkered_flag:, you need to have:
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/clocker
+$ git clone https://github.com/kakismash/clocker
 
 # Access
 $ cd clocker
 
 # Install dependencies
-$ yarn
+$ npm install
 
-# Run the project
-$ yarn start
+# Deploy on AWS Lambda
+$ tsc && serverless deploy
 
-# The server will initialize in the <http://localhost:3000>
+# Deploy and Invoke locally
+$ tsc && serverless invoke local --function clocker
+
+# Run Test
+$ npm test
 ```
 
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/kakismash" target="_blank">Joaquin Navarro</a>
 
 &#xa0;
 
