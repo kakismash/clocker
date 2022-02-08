@@ -54,13 +54,18 @@ The following tools were used in this project:
 
 - [DynamoDB](https://docs.aws.amazon.com/index.html?nc2=h_ql_doc_do)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [AWS Lambda](https://aws.amazon.com/lambda/)
+- [Chai.js](https://www.chaijs.com/)
+- [Mocha.js](https://mochajs.org/api/mocha.js.html)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have:
+
+- [AWS](https://aws.amazon.com/account/) account.
+- [Node](https://nodejs.org/en/) v14+ installed.
+- [Serverless Framework](https://www.serverless.com/) installed.
 
 ## :checkered_flag: Starting ##
 
